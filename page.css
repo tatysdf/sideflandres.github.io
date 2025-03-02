@@ -1,0 +1,328 @@
+*{
+    padding: 5px;
+
+    button{
+        font-family:'Segoe UI', ;
+    }
+
+
+    ul li {
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+nav{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+   justify-content: space-between;
+}
+
+nav li {
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+
+
+#language{
+    background-color:gainsboro;
+    border-radius: 20px;
+   
+}
+
+header{
+    background-image:url(./assets/img/bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+}
+
+.main-header h1{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.main-header button {
+    background-color:transparent;
+    color: aliceblue;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 15px ;
+    text-transform: uppercase;
+
+}
+ 
+.main-header button:hover{
+    color: black;
+    background: whitesmoke;
+}
+
+.icon-part{
+    background-color: black;
+}
+
+
+.icon-part-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.icon-part h3{
+    text-transform: uppercase;
+}
+
+.list-icon-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-part-container button{
+    background-color:transparent;
+    color: aliceblue;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 10px ;
+    text-transform: uppercase;
+}
+
+.icon-part-container button:hover{
+    color: black;
+    background: whitesmoke;
+}
+
+.news-part{
+    background: whitesmoke;
+   
+}
+
+.header-news{
+    display: grid;
+    grid-template-columns:75% 25%;
+    max-width: 1000px;
+    margin: 0 auto;
+       
+}
+
+.left-part h2{
+    letter-spacing: 4px;
+    color: rgba(0, 0, 0, 0.777);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.left-part p{
+    text-align: left;
+}
+
+.right-part button{
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 6px ;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.right-part button:hover{
+    color: whitesmoke;
+    background: black;
+}
+
+.main-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-news-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 1000px;
+    margin: 50px auto;
+
+}
+
+.main-news-container h4{
+    text-align: left;
+    margin: 15px 0;
+}
+
+.main-news-container p{
+    text-align: left;
+    font-size: 0.8rem;
+    line-height:20px;
+}
+
+.contact{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-container{
+    display: grid;
+    grid-template-rows: 75% 25%;
+}
+
+.contact-list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.contact-list h5{
+    text-transform: uppercase;
+}
+
+.liste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list img{
+    max-width: 100vh;
+    height:auto ;
+    
+}
+
+.contact-medias{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+   
+}
+
+footer h3{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+footer {
+    background: black;
+}
+
+.image-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px){
+    nav li{
+        font-size: 0.7rem;
+    }
+
+    .main-header img{
+        width: 60%;
+    }
+
+    footer ul{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width: 720px){
+    nav li{
+        display: none;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .icon-part-container{
+        display: block;
+        max-width: 90%;
+    }
+
+    .list-icon-part{
+        margin-top: 40px;
+    }
+
+    .header-news{
+        display: block;
+    }
+
+    .left-part{
+        max-width: 90%;
+    }
+
+    .left-part h2{
+        text-align: center;
+    }
+
+    .left-part p{
+        text-align: center;
+    }
+
+    .main-news-container{
+        display: block;
+        max-width: 90%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
